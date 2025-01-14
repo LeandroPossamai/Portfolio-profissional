@@ -14,12 +14,28 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 img {
-  width: 30%;
-  height: auto;
+  width: 20%; /* Define um tamanho base para telas médias */
+  height: auto; /* Mantém a proporção da imagem */
+  min-width: 100px; /* Tamanho mínimo da logo */
+  max-width: 200px; /* Tamanho máximo da logo */
 }
 
-/*Estilo do cabeçalho  */
+@media (max-width: 768px) {
+  img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    width: 40%;
+    min-width: 80px;
+  }
+}
+
+/* Estilo do cabeçalho */
 header {
   padding: 40px 4%;
 }
@@ -27,5 +43,46 @@ header {
 header > .interface {
   display: flex;
   align-items: center;
-  justify-content: space-between; /*para deixar os intens distantes  */
+  justify-content: space-between; /* Para deixar os itens distantes */
+}
+
+header a {
+  color: rgb(118, 118, 118);
+  text-decoration: none;
+  display: inline-block;
+}
+header a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+header nav {
+  flex-grow: 1;
+}
+
+header nav ul {
+  display: flex; /* Flexbox para os itens ficarem em linha */
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header .btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(3, 21, 178);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+header .btn-contato button:hover {
+  background-color: rgb(3, 32, 220); /* Mudança de cor ao passar o mouse */
 }
