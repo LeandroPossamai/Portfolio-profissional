@@ -8,3 +8,18 @@ body {
   background-color: black;
   height: 100vh;
 }
+
+.interface {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  width: 13%;
+  height: auto;
+}
+
+/*Estilo do cabeçalho  */
+
+header {
+  padding: 40px 4%;
+}
