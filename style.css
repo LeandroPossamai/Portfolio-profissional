@@ -1,3 +1,4 @@
+/* ESTILO GERAL DO SITE */
 * {
   margin: 0;
   padding: 0;
@@ -14,12 +15,32 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+.flex {
+  display: flex;
+}
 
 img {
   width: 20%; /* Define um tamanho base para telas médias */
   height: auto; /* Mantém a proporção da imagem */
   min-width: 100px; /* Tamanho mínimo da logo */
   max-width: 200px; /* Tamanho máximo da logo */
+}
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(3, 21, 178);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-contato button:hover {
+  background-color: rgb(3, 32, 220);
+  transform: scale(1.1);
+  /* Mudança de cor ao passar o mouse */
 }
 
 @media (max-width: 768px) {
@@ -71,18 +92,28 @@ header nav ul li {
   margin: 0 20px;
 }
 
-header .btn-contato button {
-  padding: 10px 40px;
-  font-size: 18px;
-  font-weight: 600;
-  background-color: rgb(3, 21, 178);
-  color: white;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site {
+  padding: 40px 4%;
 }
 
-header .btn-contato button:hover {
-  background-color: rgb(3, 32, 220); /* Mudança de cor ao passar o mouse */
+section.topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-do-site h1 {
+  color: white;
+  font-size: 42px;
+  line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span {
+  color: rgb(3, 32, 220);
+}
+
+.topo-do-site .txt-topo-site p {
+  color: white;
+  margin: 40px 0;
 }
