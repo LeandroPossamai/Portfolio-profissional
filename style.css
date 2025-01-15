@@ -44,6 +44,14 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+h2.titulo {
+  color: white;
+  font-size: 34px;
+  text-align: center;
+}
+h2.titulo span {
+  color: rgb(3, 32, 220);
+}
 
 .btn-contato button:hover {
   background-color: rgb(3, 32, 220);
@@ -138,4 +146,32 @@ section.topo-do-site .flex {
   100% {
     top: 30px;
   }
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+
+section.linguagens {
+  padding: 40px 4%;
+}
+section.linguagens .flex {
+  gap: 60px;
+}
+.linguagens .linguagens-box {
+  color: white;
+  padding: 40px;
+  border-radius: 25px;
+
+  margin-top: 45px;
+}
+.linguagens .linguagens-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgb(3, 32, 220);
+}
+.linguagens .linguagens-box i {
+  font-size: 70px;
+  color: rgb(3, 32, 220);
+}
+.linguagens .linguagens-box h3 {
+  font-size: 28px;
+  margin: 15px 0;
 }
