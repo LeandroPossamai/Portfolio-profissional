@@ -160,12 +160,12 @@ section.linguagens .flex {
   color: white;
   padding: 40px;
   border-radius: 25px;
-
   margin-top: 45px;
+  transition: 1.2s;
 }
 .linguagens .linguagens-box:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 8px rgb(3, 32, 220);
+  box-shadow: 0 0 20px rgb(3, 32, 220);
 }
 .linguagens .linguagens-box i {
   font-size: 70px;
