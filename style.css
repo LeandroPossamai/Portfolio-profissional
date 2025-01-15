@@ -19,12 +19,20 @@ body {
   display: flex;
 }
 
-img {
+#imagem-logo {
   width: 20%; /* Define um tamanho base para telas médias */
   height: auto; /* Mantém a proporção da imagem */
   min-width: 100px; /* Tamanho mínimo da logo */
   max-width: 200px; /* Tamanho máximo da logo */
 }
+
+#imagem-eu {
+  width: 70%; /* Define um tamanho base para telas médias */
+  height: auto; /* Mantém a proporção da imagem */
+  min-width: 250px;
+  max-width: 400px;
+}
+
 .btn-contato button {
   padding: 10px 40px;
   font-size: 18px;
@@ -116,4 +124,18 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
   color: white;
   margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
 }
