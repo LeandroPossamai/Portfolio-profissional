@@ -237,7 +237,13 @@ section.portfolio .flex {
 }
 
 .img-port {
-  width: 360;
-  height: 460;
-  background-color: blue;
+  width: 360px;
+  height: 460px;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 8s;
+}
+
+.img-port:hover {
+  background-position: 100% 100%;
 }
