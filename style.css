@@ -22,7 +22,7 @@ body {
 #imagem-logo {
   width: 20%; /* Define um tamanho base para telas médias */
   height: auto; /* Mantém a proporção da imagem */
-  min-width: 100px; /* Tamanho mínimo da logo */
+  min-width: 200px; /* Tamanho mínimo da logo */
   max-width: 200px; /* Tamanho máximo da logo */
 }
 
