@@ -265,4 +265,9 @@ section.portfolio .flex {
   font-size: 24px;
   font-weight: 600;
   color: white;
+  opacity: 0;
+  transition: 6s;
+}
+.overlay:hover {
+  opacity: 1;
 }
