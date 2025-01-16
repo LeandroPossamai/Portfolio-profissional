@@ -213,3 +213,14 @@ section.sobre .flex {
   color: rgb(3, 32, 220);
   display: block;
 }
+
+.sobre .txt-sobre .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(3, 32, 220);
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 6px;
+}
