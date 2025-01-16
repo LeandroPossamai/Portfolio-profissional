@@ -224,3 +224,10 @@ section.sobre .flex {
   margin: 0 6px;
   transition: 3s;
 }
+
+/* ESTILO DO PORFFOLIO */
+
+section.portfolio {
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.208);
+}
