@@ -196,7 +196,7 @@ section.sobre .flex {
 .sobre .txt-sobre p {
   color: rgba(255, 255, 255, 0.709);
   font-size: 15px;
-  margin-top: 20px;
+  margin-top: 20px 0;
   text-align: justify;
   letter-spacing: normal;
   line-height: 1.7;
