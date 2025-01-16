@@ -242,6 +242,8 @@ section.portfolio .flex {
   background-size: cover;
   background-position: 100% 0%;
   transition: 8s;
+  cursor: pointer;
+  border-radius: 40px;
 }
 
 .img-port:hover {
