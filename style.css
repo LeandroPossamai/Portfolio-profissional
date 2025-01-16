@@ -229,5 +229,15 @@ section.sobre .flex {
 
 section.portfolio {
   padding: 80px 4%;
-  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.208);
+  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.122);
+}
+
+section.portfolio .flex {
+  justify-content: space-around;
+}
+
+.img-port {
+  width: 360;
+  height: 460;
+  background-color: blue;
 }
