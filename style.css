@@ -33,6 +33,13 @@ body {
   max-width: 400px;
 }
 
+#imagem-sobre {
+  width: 70%; /* Define um tamanho base para telas médias */
+  height: auto; /* Mantém a proporção da imagem */
+  min-width: 250px;
+  max-width: 400px;
+}
+
 .btn-contato button {
   padding: 10px 40px;
   font-size: 18px;
@@ -56,7 +63,6 @@ h2.titulo span {
 .btn-contato button:hover {
   background-color: rgb(3, 32, 220);
   transform: scale(1.1);
-  /* Mudança de cor ao passar o mouse */
 }
 
 @media (max-width: 768px) {
@@ -174,4 +180,30 @@ section.linguagens .flex {
 .linguagens .linguagens-box h3 {
   font-size: 28px;
   margin: 15px 0;
+}
+
+/* ESTILO SECTION SOBRE */
+
+section.sobre {
+  padding: 40px 4%;
+}
+
+section.sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre p {
+  color: rgba(255, 255, 255, 0.709);
+  font-size: 15px;
+}
+
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.sobre .txt-sobre h2 span {
+  color: rgb(3, 32, 220);
+  display: block;
 }
