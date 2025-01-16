@@ -196,11 +196,17 @@ section.sobre .flex {
 .sobre .txt-sobre p {
   color: rgba(255, 255, 255, 0.709);
   font-size: 15px;
+  margin-top: 20px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 1.7;
 }
 
 .sobre .txt-sobre h2 {
   font-size: 40px;
   color: white;
+  line-height: 40px;
+  margin-bottom: 50px;
 }
 
 .sobre .txt-sobre h2 span {
