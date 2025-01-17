@@ -59,7 +59,9 @@ h2.titulo {
 h2.titulo span {
   color: rgb(3, 32, 220);
 }
-button:hover {
+button:hover,
+form .btn-enviar input:hover,
+.linguagens .linguagens-box i:hover {
   background-color: rgb(3, 32, 220);
   transform: scale(1.1);
 }
@@ -298,6 +300,7 @@ form textarea {
   border-radius: 15px;
   color: white;
   font-size: 18px;
+  margin-top: 40px;
 }
 form textarea {
   resize: none;
@@ -315,4 +318,5 @@ form .btn-enviar input {
   color: black;
   font-weight: 700;
   cursor: pointer;
+  transition: 2s;
 }
