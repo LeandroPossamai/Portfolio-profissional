@@ -351,3 +351,55 @@ footer .line-footer p a {
   max-width: 150px;
   height: auto;
 }
+
+@media screen and (max-width: 1020px) {
+  /* classes gerais */
+  .flex {
+    flex-direction: column;
+  }
+  .topo-do-site .flex {
+    flex-direction: column-reverse;
+  }
+  h2.titulo {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  /* cabeçalho */
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+  /* topo do site */
+  section.topo-do-site .flex {
+    gap: 60px;
+  }
+  section.topo-do-site {
+    padding: 20px 9%;
+  }
+  .topo-do-site h2 {
+    font-size: 20px;
+  }
+  #imagem-eu {
+    width: 5px;
+  }
+  /* ESTILO DAS ESPECIALIDADES */
+  section.linguagens {
+    padding: 40px 8%;
+  }
+  /* SOBRE */
+  section.sobre {
+    padding: 80px 8%;
+  }
+  .sobre.txt-sobre {
+    font-size: 34px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .btn-social {
+    text-align: center;
+  }
+  .img-sobre img {
+    width: 100%;
+  }
+}
