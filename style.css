@@ -19,7 +19,8 @@ body {
   display: flex;
 }
 
-#imagem-logo {
+#imagem-logo,
+#imagem-footer {
   width: 20%; /* Define um tamanho base para telas médias */
   height: auto; /* Mantém a proporção da imagem */
   min-width: 200px; /* Tamanho mínimo da logo */
@@ -319,4 +320,33 @@ form .btn-enviar input {
   font-weight: 700;
   cursor: pointer;
   transition: 2s;
+}
+/* ESTILO DO RODAPE */
+
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.122);
+}
+
+footer .flex {
+  display: flex;
+}
+footer .line-footer {
+  padding: 20px 0;
+}
+.borda {
+  border-top: 2px solid rgb(3, 32, 220);
+}
+
+footer .line-footer p i {
+  color: rgb(37, 0, 248);
+  font-size: 22px;
+}
+footer .line-footer p a {
+  color: white;
+}
+
+.logo-footer img {
+  max-width: 150px;
+  height: auto;
 }
