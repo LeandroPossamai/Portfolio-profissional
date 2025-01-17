@@ -288,10 +288,31 @@ form {
   gap: 10px;
 }
 
-form input {
+form input,
+form textarea {
   width: 100%;
   background-color: rgb(56, 55, 55);
   border: 0;
   outline: 0;
   padding: 20px 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+}
+form textarea {
+  resize: none;
+  max-height: 200px;
+}
+
+form .btn-enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input {
+  width: 120px;
+  background-color: rgb(3, 32, 220);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
 }
