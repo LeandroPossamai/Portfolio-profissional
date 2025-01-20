@@ -44,6 +44,7 @@ body {
 .btn-contato button {
   padding: 10px 40px;
   font-size: 18px;
+  margin-left: auto;
   font-weight: 600;
   background-color: rgb(3, 21, 178);
   color: white;
