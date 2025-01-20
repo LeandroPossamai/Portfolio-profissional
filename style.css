@@ -89,28 +89,35 @@ header {
   z-index: 1000; /* Garante que o menu fique acima dos outros elementos */
   background-color: black; /* Ajuste conforme a cor desejada */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreamento para destacar */
+  transition: all 0.3s ease; /* Transição suave ao rolar */
 }
 
+/* Contêiner interno do cabeçalho */
 header > .interface {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Para deixar os itens distantes */
+  padding: 10px 20px; /* Ajuste o espaçamento conforme necessário */
 }
 
+/* Links no cabeçalho */
 header a {
   color: rgb(118, 118, 118);
   text-decoration: none;
   display: inline-block;
 }
+
 header a:hover {
   color: blue;
   transform: scale(1.1);
 }
 
+/* Navbar dentro do cabeçalho */
 header nav {
   flex-grow: 1;
 }
 
+/* Lista de itens da navbar */
 header nav ul {
   display: flex; /* Flexbox para os itens ficarem em linha */
   justify-content: center;
@@ -118,8 +125,27 @@ header nav ul {
   padding: 0;
 }
 
+/* Estilos para os itens da navbar */
 header nav ul li {
   margin: 0 20px;
+}
+
+/* Estilo da logo dentro do cabeçalho */
+header .logo img {
+  transition: opacity 0.3s ease; /* Transição suave para ocultar logo */
+  max-width: 120px; /* Ajuste o tamanho máximo da logo */
+}
+
+/* Quando a navbar rolar para baixo, oculta a logo */
+header.navbar-scrolled .logo img {
+  opacity: 0;
+  visibility: hidden; /* Para evitar que o espaço da logo fique visível */
+}
+
+/* Estilo quando a navbar é fixada após rolar a página */
+header.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo com transparência */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombras mais suaves */
 }
 
 /* ESTILO DO TOPO DO SITE */

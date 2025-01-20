@@ -207,11 +207,21 @@ window.addEventListener('scroll', () => {
   } else {
     backToTopButton.style.display = 'none';
   }
+
 });
 
 
 backToTopButton.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+window.onscroll = function() {
+  const header = document.querySelector('header');
+  if (window.scrollY > 50) {
+    header.classList.add('navbar-scrolled');
+  } else {
+    header.classList.remove('navbar-scrolled');
+  }
+};
   </script>
 </html>
