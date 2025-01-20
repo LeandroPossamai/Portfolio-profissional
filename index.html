@@ -198,21 +198,20 @@
 
   </body>
   <script>
-    // Referência ao botão
-    const backToTopButton = document.getElementById('backToTop');
-  
-    // Mostrar o botão ao rolar a página para baixo
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) { // Exibir botão após 300px de rolagem
-        backToTopButton.style.display = 'flex';
-      } else {
-        backToTopButton.style.display = 'none';
-      }
-    });
-  
-    // Voltar ao topo ao clicar no botão
-    backToTopButton.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+     const backToTopButton = document.getElementById('backToTop');
+
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) { // Exibir após 300px de rolagem
+    backToTopButton.style.display = 'flex';
+  } else {
+    backToTopButton.style.display = 'none';
+  }
+});
+
+
+backToTopButton.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
   </script>
 </html>
