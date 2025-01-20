@@ -86,7 +86,8 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Garante que o menu fique acima dos outros elementos */
+  height: 130px;
+  z-index: 899; /* Garante que o menu fique acima dos outros elementos */
   background-color: black; /* Ajuste conforme a cor desejada */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreamento para destacar */
   transition: all 0.3s ease; /* Transição suave ao rolar */
