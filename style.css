@@ -62,8 +62,7 @@ h2.titulo span {
   color: rgb(3, 32, 220);
 }
 button:hover,
-form .btn-enviar input:hover,
-.linguagens .linguagens-box i:hover {
+form .btn-enviar input:hover {
   background-color: rgb(3, 32, 220);
   transform: scale(1.1);
 }
@@ -178,7 +177,7 @@ section.linguagens .flex {
 }
 .linguagens .linguagens-box i {
   font-size: 70px;
-  color: rgb(207, 212, 245);
+  color: rgb(0, 34, 252);
 }
 
 .linguagens .linguagens-box h3 {
