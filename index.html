@@ -26,9 +26,9 @@
   <header>
     <div class="interface">
       <div class="logo">
-        <a href="#">
+        
           <img id="imagem-logo" src="images/logo-8.png" alt="logo" />
-        </a>
+        
       </div>
       <!-- Menu desktop -->
       <nav class="menu-desktop">
@@ -38,6 +38,7 @@
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Projetos</a></li>
         </ul>
+
     </nav>
 
     <div class="btn-contato">
@@ -182,6 +183,7 @@
             </div>
           </div>
         </div> <!-- fim line-footer -->
+        <button id="backToTop" class="back-to-top"><i class="bi bi-arrow-up-circle-fill"></i></button>
     
         <div class="line-footer borda">
           <p>
@@ -192,6 +194,25 @@
       </div> <!-- fim interface -->
     </footer>
      
- 
+    
+
   </body>
+  <script>
+    // Referência ao botão
+    const backToTopButton = document.getElementById('backToTop');
+  
+    // Mostrar o botão ao rolar a página para baixo
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) { // Exibir botão após 300px de rolagem
+        backToTopButton.style.display = 'flex';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+  
+    // Voltar ao topo ao clicar no botão
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </html>

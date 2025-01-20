@@ -8,6 +8,7 @@
 
 body {
   background-color: black;
+  padding-top: 250px; /* Adiciona espaço para compensar a altura do header fixo */
   height: 100vh;
 }
 
@@ -30,8 +31,8 @@ body {
 #imagem-eu {
   width: 70%; /* Define um tamanho base para telas médias */
   height: auto; /* Mantém a proporção da imagem */
-  min-width: 250px;
-  max-width: 400px;
+  min-width: 215px;
+  max-width: 300px;
 }
 
 #imagem-sobre {
@@ -82,7 +83,12 @@ form .btn-enviar input:hover {
 
 /* Estilo do cabeçalho */
 header {
-  padding: 40px 4%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Garante que o menu fique acima dos outros elementos */
+  background-color: black; /* Ajuste conforme a cor desejada */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreamento para destacar */
 }
 
 header > .interface {
@@ -350,6 +356,27 @@ footer .line-footer p a {
 .logo-footer img {
   max-width: 150px;
   height: auto;
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: none; /* Escondido inicialmente */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back-to-top:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+  }
 }
 
 @media screen and (max-width: 1020px) {

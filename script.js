@@ -1,0 +1,3 @@
+function openNav() {
+  alert("TEXT");
+}
