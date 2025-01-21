@@ -433,8 +433,9 @@ footer .line-footer p a {
   }
 }
 
-@media screen and (max-width: 1020px) {
-  /* classes gerais */
+/* Tamanhos de tela até 1280px */
+@media screen and (max-width: 1280px) {
+  /* Ajustes gerais */
   .flex {
     flex-direction: column;
   }
@@ -442,60 +443,59 @@ footer .line-footer p a {
     flex-direction: column-reverse;
   }
   h2.titulo {
-    font-size: 34px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 28px;
   }
-
-  /* cabeçalho */
   .menu-desktop,
   .btn-contato {
     display: none;
   }
-  /* topo do site */
-  section.topo-do-site .flex {
-    gap: 60px;
-  }
   section.topo-do-site {
-    padding: 20px 9%;
+    padding: 20px 8%;
   }
-  .topo-do-site h2 {
-    font-size: 20px;
+  section.topo-do-site .flex {
+    gap: 50px;
   }
-  #imagem-eu {
-    width: 5px;
-  }
-  /* ESTILO DAS ESPECIALIDADES */
-  section.linguagens {
-    padding: 40px 8%;
-  }
-  /* SOBRE */
+}
+
+/* Tamanhos entre 768px e 1300px */
+@media screen and (min-width: 768px) and (max-width: 1300px) {
   section.sobre {
-    padding: 80px 8%;
+    padding: 70px 7%;
   }
   .sobre.txt-sobre {
-    font-size: 34px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 32px;
     text-align: center;
   }
   .btn-social {
     text-align: center;
   }
-  #imagem-sobre {
-    width: 5px;
-  }
-  /* PORTFOLIO */
-  section.portfolio {
-    padding: 80px 8%;
-  }
   .img-port {
-    width: 100%;
-    max-width: 360px;
+    width: 90%;
+    max-width: 340px;
     margin: 0 auto;
-  }
-  section.portfolio .flex {
-    gap: 60px;
   }
   footer .line-footer {
     text-align: center;
+  }
+}
+
+/* Tamanhos entre 768px e 1650px */
+@media screen and (min-width: 768px) and (max-width: 1650px) {
+  .topo-do-site h2 {
+    font-size: 22px;
+  }
+  #imagem-eu {
+    width: 100px;
+  }
+  #imagem-sobre {
+    width: 100px;
+  }
+  section.portfolio {
+    padding: 70px 10%;
+  }
+  section.portfolio .flex {
+    gap: 50px;
   }
 }
