@@ -31,8 +31,8 @@ body {
 #imagem-eu {
   width: 70%; /* Define um tamanho base para telas médias */
   height: auto; /* Mantém a proporção da imagem */
-  min-width: 215px;
-  max-width: 300px;
+  min-width: 425px;
+  max-width: 350px;
 }
 
 #imagem-sobre {
