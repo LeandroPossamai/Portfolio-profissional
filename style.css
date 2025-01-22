@@ -112,7 +112,7 @@ header a {
 }
 
 header nav.menu-desktop a:hover {
-  color: blue;
+  color: rgb(3, 32, 220);
   transform: scale(1.1);
 }
 
@@ -220,7 +220,7 @@ section.linguagens .flex {
 }
 .linguagens .linguagens-box i {
   font-size: 70px;
-  color: rgb(0, 34, 252);
+  color: rgb(3, 32, 220);
 }
 
 .linguagens .linguagens-box h3 {
@@ -228,7 +228,7 @@ section.linguagens .flex {
   margin: 15px 0;
 }
 .linguagens .linguagens-box h3:hover {
-  color: blue;
+  color: rgb(3, 32, 220);
 }
 
 /* ESTILO SECTION SOBRE */
@@ -404,7 +404,7 @@ footer .line-footer {
 }
 
 footer .line-footer p i {
-  color: rgb(37, 0, 248);
+  color: rgb(3, 32, 220);
   font-size: 22px;
 }
 footer .line-footer p a {
@@ -464,12 +464,12 @@ footer .line-footer p a {
   }
 
   .btn-abrir-menu i {
-    color: blue;
+    color: rgb(3, 32, 220);
     font-size: 42px;
   }
   .menu-mobile {
     background-color: rgb(0, 0, 0);
-    color: rgb(43, 0, 255);
+    color: rgb(3, 32, 220);
     display: block;
     height: 100vh;
     position: fixed;
@@ -499,7 +499,7 @@ footer .line-footer p a {
     display: block;
   }
   .menu-mobile nav ul li a:hover {
-    background-color: blue;
+    background-color: rgb(3, 32, 220);
     color: black;
   }
   .menu-mobile .btn-fechar i {
