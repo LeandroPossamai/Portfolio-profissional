@@ -67,6 +67,9 @@ form .btn-enviar input:hover {
   background-color: rgb(3, 32, 220);
   transform: scale(1.1);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @media (max-width: 768px) {
   img {
@@ -455,6 +458,9 @@ footer .line-footer p a {
   h2.titulo {
     font-size: 34px;
     line-height: 30px;
+  }
+  .btn-abrir-menu {
+    display: block;
   }
 
   .btn-abrir-menu i {
